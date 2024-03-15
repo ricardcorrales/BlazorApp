@@ -20,16 +20,17 @@
     }
 </ul>
 
-@code {
+@code 
+{
     private List<ToDoItem> todos = new();
 
     private string? newTodo;
-
+    
     private void AddTodo()
     {
         if(!string.IsNullOrWhiteSpace(newTodo))
         {
-            todos.Add(new ToDoItem(Title = newTodo));
+            todos.Add(new ToDoItem());
             newTodo = string.Empty;
         }
     }
