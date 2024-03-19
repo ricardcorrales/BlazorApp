@@ -1,14 +1,15 @@
 {
   "version": 2,
-<<<<<<< HEAD
-  "dgSpecHash": "xbEMEc9ogjBqnzjzaClM3C/aMF+SzvzWiW0N2WRwh6p4yAY5Jnz4FCLnudGY7cz7JuMyNhAyDT8oKeL4RYu1DQ==",
+  "dgSpecHash": "yrAGiywI7v/uLLuMmtpsfvtLJZK1w6uuAmVegmQmsn4eKVY7pEh+7pMZJBqs29yw20Cj9qwUxgSJS0IPLWwauA==",
   "success": true,
-  "projectFilePath": "c:\\Users\\ricar\\source\\repos\\BlazorApp\\BlazorApp.csproj",
-=======
-  "dgSpecHash": "olXY2uM4+Fc6XrODl3DWVmZezqHRXlFo2l6oFqhOXobwOYwH6YUNREA9PW0Wh+BwIYmge+NGeYVvFEOJIQOlyA==",
-  "success": true,
-  "projectFilePath": "/home/ricard/Documentos/desarrollos/BlazorApp/BlazorApp.csproj",
->>>>>>> 08abd0cfa46a7255902b685d83fc98232b0475cb
+  "projectFilePath": "C:\\Users\\ricar\\source\\repos\\BlazorApp\\BlazorApp.csproj",
   "expectedPackageFiles": [],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problema al leer el archivo de caché C:\\Users\\ricar\\source\\repos\\BlazorApp\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }
